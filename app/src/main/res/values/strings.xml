@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DataPractical1</string>
+    <string name="sets">Sets:</string>
+
+    <string-array name="MainActivityList">
+        <item>Workouts</item>
+        <item>Add Workouts</item>
+        <item>Online Workouts</item>
+    </string-array>
+
+    <string name="adID">ca-app-pub-3396045645520018~8402755003</string>
+</resources>

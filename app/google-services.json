@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "379102358337",
+    "firebase_url": "https://datapractical1-3c283.firebaseio.com",
+    "project_id": "datapractical1-3c283",
+    "storage_bucket": "datapractical1-3c283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379102358337:android:be9f84498a190643",
+        "android_client_info": {
+          "package_name": "com.example.appty.datapractical1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379102358337-2bfn0lqe93et5nkb9jgq3g1cnv4egkes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appty.datapractical1",
+            "certificate_hash": "72aaf9277f3f18240e3f449b930cafb0b210e512"
+          }
+        },
+        {
+          "client_id": "379102358337-gi2uhbhfsor29b81uja0hali9bk9g4mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT8DgupUguKMLl8l6N8PbhJd9Aoz-RvRA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379102358337-gi2uhbhfsor29b81uja0hali9bk9g4mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
