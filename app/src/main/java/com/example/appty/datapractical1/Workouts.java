@@ -72,10 +72,8 @@ public class Workouts extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                String rowID = Integer.toString(workoutID);
                 String whereClause = KEY_ROWID + "=?";
-                String[] whereArgs = {rowID};
+                String[] whereArgs = {Integer.toString(workoutID)};
 
                 db.delete(TABLE_NAME, whereClause, whereArgs);
                 Toast.makeText(getApplicationContext(), "Workout Deleted", Toast.LENGTH_LONG).show();

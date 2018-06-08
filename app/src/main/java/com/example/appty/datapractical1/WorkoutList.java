@@ -28,13 +28,13 @@ public class WorkoutList extends ListActivity {
         super.onCreate(savedInstanceState);
 
         listView = getListView();
-        int layout = android.R.layout.simple_expandable_list_item_1;
+//        int layout = android.R.layout.simple_expandable_list_item_1;
 
         String[] displayCol = {DBHelper.KEY_TITLE};
         int[] to = {android.R.id.text1};
 
         cursor = null;
-        cursorAdapter = new SimpleCursorAdapter(this, layout, cursor, displayCol, to, 0);
+        cursorAdapter = new SimpleCursorAdapter(this, android.R.layout.simple_expandable_list_item_1, cursor, displayCol, to, 0);
         listView.setAdapter(cursorAdapter);
 
 
@@ -54,7 +54,8 @@ public class WorkoutList extends ListActivity {
             DBHelper helper = new DBHelper(this);
             String[] projection = {DBHelper.KEY_ROWID, DBHelper.KEY_TITLE};
             db = helper.getWritableDatabase();
-            cursor = db.query(DBHelper.TABLE_NAME, projection, null, null, null, null, null);
+            cursor = db.query(DBHelper.TABLE_NAME, projection, null, null,
+                    null, null, null);
         }
         catch (SQLiteException e)
         {

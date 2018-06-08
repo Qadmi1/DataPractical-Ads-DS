@@ -68,13 +68,13 @@ public class DBHelper extends SQLiteOpenHelper {
 
     }
 
-    public  void deleteValues(int passedID){
-
-        DB = this.getWritableDatabase();
-        String rowID = Integer.toString(passedID);
-
-        DB.delete(TABLE_NAME, KEY_ROWID+ " = "+ rowID, null);
-
-
-    }
+//    public  void deleteValues(int passedID){
+//
+//        DB = this.getWritableDatabase();
+//        String rowID = Integer.toString(passedID);
+//
+//        DB.delete(TABLE_NAME, KEY_ROWID+ " = "+ rowID, null);
+//
+//
+//    }
 }

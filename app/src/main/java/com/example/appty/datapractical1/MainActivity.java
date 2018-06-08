@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
                 if (position == 0) {
-//                    if (cursor.moveToFirst()) {
+                    if (cursor.moveToFirst()) {
                         Intent intent = new Intent(getApplicationContext(), WorkoutList.class);
                         startActivity(intent);
-//                    }
-//                    else {
-//                        Toast.makeText(MainActivity.this, "Please Add a Workout", Toast.LENGTH_SHORT).show();
-//                    }
+                    }
+                    else {
+                        Toast.makeText(MainActivity.this, "Please Add a Workout", Toast.LENGTH_SHORT).show();
+                    }
                 } else if (position == 1) {
                     Intent intent = new Intent(getApplicationContext(), AddWorkouts.class);
                     startActivity(intent);
